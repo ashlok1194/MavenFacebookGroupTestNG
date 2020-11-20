@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12518" started-at="2020-11-18T15:21:21Z" finished-at="2020-11-18T15:21:34Z">
+    <groups>
+      <group name="E2E">
+        <method signature="Facebook.email()[pri:0, instance:org.sample.Facebook@12b0404f]" name="email" class="org.sample.Facebook"/>
+        <method signature="Facebook.password()[pri:0, instance:org.sample.Facebook@12b0404f]" name="password" class="org.sample.Facebook"/>
+      </group> <!-- E2E -->
+    </groups>
+    <test name="Test" duration-ms="12518" started-at="2020-11-18T15:21:21Z" finished-at="2020-11-18T15:21:34Z">
+      <class name="org.sample.Facebook">
+        <test-method status="PASS" signature="email()[pri:0, instance:org.sample.Facebook@12b0404f]" name="email" duration-ms="12365" started-at="2020-11-18T15:21:21Z" finished-at="2020-11-18T15:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- email -->
+        <test-method status="PASS" signature="password()[pri:0, instance:org.sample.Facebook@12b0404f]" name="password" duration-ms="116" started-at="2020-11-18T15:21:34Z" finished-at="2020-11-18T15:21:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- password -->
+      </class> <!-- org.sample.Facebook -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
